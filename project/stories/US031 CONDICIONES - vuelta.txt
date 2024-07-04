@@ -1,0 +1,16 @@
+Código: US031
+
+Nombre: vuelta atras
+
+Roles:Usuario
+
+Necesidad:
+cuando le de al boton de cerrar que me vuelva a llevar a Loging.html
+
+Razon:
+loguearme al leer las condiciones
+
+Aceptacion:
+-boton.
+Relaciones:
+

@@ -1,0 +1,17 @@
+Código: US022
+
+Nombre: Chequear condiciones
+
+Roles: Usuario
+
+Necesidad:
+-Al chequear abilitar boton 
+
+Razon:
+ Aceptarlas condiciones
+
+Aceptacion:
+cuando el boton de condiciones este quequeado, abilitar el boton de auth 
+
+Relaciones:
+

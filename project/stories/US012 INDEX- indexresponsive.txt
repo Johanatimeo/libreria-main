@@ -1,0 +1,16 @@
+Código: US012
+
+Nombre: indexresponsive
+
+Roles: Usuario
+
+Necesidad:
+Al cambiar de tipo de pantalla quiero poder ver la pagina bien 
+Razon: 
+
+Poder conectarme en diferentes dispositivos
+
+Aceptacion:
+- style.css ()
+
+Relaciones:

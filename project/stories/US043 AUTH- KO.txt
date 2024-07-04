@@ -1,0 +1,16 @@
+Código: US042
+
+Nombre: KO
+
+Roles: sistema
+
+Necesidad:
+Si la informacion de la URL Y el Json NO coinciden llevame a sacame una alerta y llevame a LOGIN.HTML
+Razon
+
+no autorizar compra
+
+Aceptacion:
+ 
+
+Relaciones:

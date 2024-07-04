@@ -1,0 +1,17 @@
+Código: US20
+
+Nombre: Hacer login
+
+Roles: Usuario
+
+Necesidad:
+Al abrir quiero ver fondo y formulario 
+
+Razon:
+-darle una buena visivilidad y funcionamiento.
+
+Aceptacion:
+.fondo 
+-formulario
+
+Relaciones:

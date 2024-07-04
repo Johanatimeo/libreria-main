@@ -1,0 +1,17 @@
+Código: US030
+
+Nombre: Condiciones
+
+Roles:Usuario
+
+Necesidad:
+Al abrir quiero ver titulo y lorem 
+
+Razon:
+ver las condiciones al completo
+
+Aceptacion:
+-titulo 
+lorem
+Relaciones:
+

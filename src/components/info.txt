@@ -1,0 +1,5 @@
+Aquí iran los web-components
+Cada web-component en una carpeta
+Cada carpeta con un index.js
+Cada carpeta con al menos un archivo javascript de componente
+

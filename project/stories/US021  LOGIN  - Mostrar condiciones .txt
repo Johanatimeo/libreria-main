@@ -1,0 +1,21 @@
+Código: US021
+
+Nombre: Mostrar condiciones
+
+Roles: Usuario
+
+Necesidad:
+Mostrar las condiciones del servicio.
+-Al sacar "terminos y condiciones ir a CONDICIONES.HTML
+
+Razon:
+Poder leer las condiciones antes de aceptarlas
+
+
+Aceptacion:
+Que página donde se muestran las condiciones, tenga un mecanismo para poder volver o la página para poder loguearse.
+
+
+
+Relaciones:
+

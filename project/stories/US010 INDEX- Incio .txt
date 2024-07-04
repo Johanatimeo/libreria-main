@@ -1,0 +1,19 @@
+Código: US010
+
+Nombre: Inicio
+
+Roles: Usuario
+
+Necesidad:
+Al abrir quiero poder ver fondo, logo y boton para loguear 
+
+Razon: 
+Poder ver donde se esta metiendo el cliente 
+
+Aceptacion:
+
+-fondo
+-logo
+-Boton para loguear.
+
+Relaciones:

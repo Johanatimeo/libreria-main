@@ -1,0 +1,16 @@
+Código: US041
+
+Nombre: JSON
+
+Roles: sistema
+
+Necesidad:
+Quiero tener la info del usuario y el pass en la URL
+
+Razon:
+Tener la informacion de los usuarios que son aceptados
+
+Aceptacion:
+ 
+
+Relaciones:

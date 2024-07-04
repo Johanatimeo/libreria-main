@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Inicio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-image: url('https://cdn.pixabay.com/photo/2020/12/29/10/38/bookshop-5870155_640.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      color: aliceblue;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      text-align: center;
+      background: #00000096;
+      padding: 80px;
+      border-radius: 10px;
+      max-width: 90%;
+      box-shadow: 0 4px 8px #000000ee;
+    }
+
+    .logo {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .login-button {
+      background-color: #51cc55;
+      color: white;
+      padding: 15px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .login-button:hover {
+      background-color: #45a049;
+    }
+
+    @media (max-width: 768px) {
+      .login-button {
+        padding: 12px 25px;
+        font-size: 14px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .login-button {
+        padding: 10px 20px;
+        font-size: 12px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      .container {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Esta es una librería</h1>
+    <!--<img src="" alt="&#8482;" class="logo">-->
+    <a href="login.html" ><button class="login-button">Loguear</button>
+    </a>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>

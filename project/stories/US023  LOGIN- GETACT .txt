@@ -1,0 +1,17 @@
+Código: US023
+
+Nombre: GETACT
+
+Roles:Sistema
+
+Necesidad:
+- LLevar la informacion del usuario y contraseña al auth
+
+Razon:
+Autenticar
+
+Aceptacion:
+-Formulario con get y auth
+
+Relaciones:
+

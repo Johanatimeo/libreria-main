@@ -1,0 +1,17 @@
+Código: US011
+
+Nombre: Boton index 
+
+Roles: Usuario
+
+Necesidad:
+Al cliquear el boton de login ir a LOGING.HTML
+
+Razon: 
+Poder Loguearme como usuaria 
+
+Aceptacion:
+-Boton para loguear.
+-Acion de cambio de html
+
+Relaciones:

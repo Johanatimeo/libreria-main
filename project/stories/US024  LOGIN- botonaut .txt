@@ -1,0 +1,16 @@
+Código: US024
+
+Nombre: botonauth
+
+Roles:Sistema
+
+Necesidad:
+-al aceptar los terminos se abilita un boton y con te lleva a AUT.HTML
+Razon:
+Autenticar
+
+Aceptacion:
+-Formulario con get y auth
+
+Relaciones:
+

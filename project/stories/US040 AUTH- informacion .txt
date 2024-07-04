@@ -1,0 +1,16 @@
+Código: US040
+
+Nombre: indormacion
+
+Roles: sistema
+
+Necesidad:
+Quiero tener la info del usuario y el pass en la URL
+
+Razon:
+VERIFYCAR
+
+Aceptacion:
+ 
+
+Relaciones:

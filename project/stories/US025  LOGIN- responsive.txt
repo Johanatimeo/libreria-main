@@ -1,0 +1,16 @@
+Código: US024
+
+Nombre: Responsive
+
+Roles:usuario
+
+Necesidad:
+Al cambiar de tipo de pantalla quiero poder ver la pagina bien 
+Razon:
+
+Autenticar:
+
+Aceptacion:
+- style.css ()h
+
+Relaciones:
