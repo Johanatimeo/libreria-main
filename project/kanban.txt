@@ -1,19 +1,15 @@
 [Backlog]  # Historias con tiempo estimado.
-INDEX:( tiempo estimado, real)
-    US010-Incio ( tiempo estimado, real)
-            -fondo
+INDEX:
+     US010-Incio ( tiempo estimado, real)
+           -FONDO
             -logo
             -Boton para loguear
-    US011-Boton ( tiempo estimado, real)
-    US012-Responsive ( tiempo estimado, real)
 
 LOGIN: ( tiempo estimado, real)
     US020:  -fondo 
             -formulario( tiempo estimado, real)
     US021: -Que página donde se muestran las condiciones, tenga un mecanismo para poder volver o la página para poder loguearse.( tiempo estimado, real)
-    US022: -cuando el boton de condiciones este quequeado, abilitar el boton de auth ( tiempo estimado, real)
-    US023: -Formulario con get y auth ( tiempo estimado, real)
-    US024: -Boton que me lleve auth ( tiempo estimado, real)
+   
     US025: -Resoponsive ( tiempo estimado, real)
 
 CONDICIONES: (tiempo estimado, real)
@@ -21,7 +17,7 @@ CONDICIONES: (tiempo estimado, real)
             -titulo
             -parrafo
             -boton
-    US031: Al darle al boton volver a login.html (tiempo estimado, real)
+  
 
 [Sprint]  # Historias a realizar en un spring con responsable asignado
 
@@ -31,11 +27,25 @@ CONDICIONES: (tiempo estimado, real)
 
 [Revision]  # Historias pendientes de aprobación, con el tiempo dedicado
 
+INDEX:( tiempo estimado, real)
+   
+    US011-Boton ( tiempo estimado, real)
+    US012-Responsive ( tiempo estimado, real)
+
+LOGIN: ( tiempo estimado, real)
+    US022: -cuando el boton de condiciones este quequeado, abilitar el boton de auth ( tiempo estimado, real)
+    US023: -Formulario con get y auth ( tiempo estimado, real)
+    US024: -Boton que me lleve auth ( tiempo estimado, real)
+
+CONDICIONES: (tiempo estimado, real)
+      US031: Al darle al boton volver a login.html (tiempo estimado, real)
+
 AUTH:  ( 1h tiempo estimado, 40 real)
     US040: -Recoger la informacion de la URL   ( 10m tiempo estimado, 10m real)
     US042:  -Si coinciden la informacion llevame a Store.html  ( 10m tiempo estimado, 10m real)
     US043:  -si no es ok alerta y llevame a login.html  ( 10 mtiempo estimado, 10m real)
     US041:  -Crear el JSON (30 m tiempo estimado,10 m real)
+
 
 [Finalizado] # Historias finalizadas
 

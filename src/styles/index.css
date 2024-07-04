@@ -1,0 +1,77 @@
+ body,
+    html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-image: url(../resources/);
+      background-size: cover;
+      background-position: center; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+      color: aliceblue;
+      margin-bottom: 20px;
+    }
+
+    .container {
+      text-align: center;
+      background:  #d5a679b9;
+      padding: 80px;
+      border-radius: 10px;
+      max-width: 90%;
+      box-shadow: 0 4px 8px #e5d7cab9;
+    }
+
+    .logo {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .login-button {
+      background-color: #633a1d;
+      color: white;
+      padding: 15px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .login-button:hover {
+      background-color: #45a049;
+    }
+
+    @media (max-width: 768px) {
+      .login-button {
+        padding: 12px 25px;
+        font-size: 14px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .login-button {
+        padding: 10px 20px;
+        font-size: 12px;
+      }
+
+      h1 {
+        font-size: 20px;
+      }
+
+      .container {
+        padding: 15px;
+      }
+    }
