@@ -10,29 +10,34 @@ export class miComponenteWeb extends HTMLElement {
             <style>
           
                 .article-card {
-                    width: calc( 25rem);
+                    width: calc( 15rem);
                     box-sizing: border-box;
                     text-align: center;
                     background-color: #f9f9f9;
                     transition: background-color 0.3s ease;
                     border-radius: 1rem;
-                    padding: 1rem;
                     margin: 2rem;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    transistion:.1s;
+
                 }
 
                 .article-image {
-                    width: 100%;
-                    height: auto;
+                    width: 50%;
+                    height: 100%;
                     max-height: 12rem;
                     object-fit: cover;
                     border-radius: 1rem;
+                    
                 }
 
                 .article-card:hover {
+                
                     background-color: #c5c4c4;
+                    scale:1.1;
+                    
                 }
                     @media only screen and (max-width:800px) {
                  .article-card {
