@@ -15,7 +15,7 @@ if (!authen) {
 // Evento para cuando el DOM esté completamente cargado
 document.addEventListener('DOMContentLoaded', function () {
     const contenedorlib = document.getElementById('containerlib');
-    const lista = document.getElementById('lista');
+    const lista = document.getElementById('menu');
 
     // Al iniciar, carga los artículos de 'Biografia'
     cargarArticulos();

@@ -4,20 +4,12 @@ INDEX:
            -FONDO
             -logo
             -Boton para loguear
-
 LOGIN: ( tiempo estimado, real)
     US020:  -fondo 
             -formulario( tiempo estimado, real)
     US021: -Que página donde se muestran las condiciones, tenga un mecanismo para poder volver o la página para poder loguearse.( tiempo estimado, real)
-   
     US025: -Resoponsive ( tiempo estimado, real)
-
-CONDICIONES: (tiempo estimado, real)
-    US030: Mostrar condiciones  (tiempo estimado 1:30, real)
-            -titulo
-            -parrafo
-            -boton
-  
+STORE: 
 
 [Sprint]  # Historias a realizar en un spring con responsable asignado
 
@@ -39,12 +31,22 @@ LOGIN: ( tiempo estimado, real)
 
 CONDICIONES: (tiempo estimado, real)
       US031: Al darle al boton volver a login.html (tiempo estimado, real)
+        US030: Mostrar condiciones  (tiempo estimado 1:30, real)
+            -titulo
+            -parrafo
+            -boton
+  
 
 AUTH:  ( 1h tiempo estimado, 40 real)
     US040: -Recoger la informacion de la URL   ( 10m tiempo estimado, 10m real)
     US042:  -Si coinciden la informacion llevame a Store.html  ( 10m tiempo estimado, 10m real)
     US043:  -si no es ok alerta y llevame a login.html  ( 10 mtiempo estimado, 10m real)
     US041:  -Crear el JSON (30 m tiempo estimado,10 m real)
+STORE: ( 4h tiempo estimado, real 3h )
+    US050:verificar
+    US051:Titulo de tienda logo cesta y descripcion
+    US052:Aside con los clasificaciones
+    US053: Al cliequear una clasificacion quiero poder ver los libros de ese tema co WC
 
 
 [Finalizado] # Historias finalizadas

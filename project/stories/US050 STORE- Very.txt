@@ -1,0 +1,16 @@
+Código: US050
+
+Nombre:very
+
+Roles: sistema
+
+Necesidad:
+Al abrir quiero verificar que paso del auth 
+
+Razon:
+Al abrir quiero verificar que paso del auth 
+
+Aceptacion:
+ 
+
+Relaciones:

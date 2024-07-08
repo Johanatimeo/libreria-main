@@ -1,0 +1,15 @@
+Código: US052
+
+Nombre: Aside
+
+Roles: Usuario
+
+Necesidad:
+Aside queremos poder clasificar por ramas los libros 
+
+
+
+Aceptacion:
+poder elegir  
+
+Relaciones:

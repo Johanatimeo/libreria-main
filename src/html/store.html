@@ -4,36 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/src/styles/store.css">
+    <link rel="stylesheet" href="../styles/store.css">
 </head>
 <body>
-     <header>
+    <header>
         <h1>LIBRERIA MANOLO</h1>
-    <img src="" alt="mielda">
-     </header>
-
-     <aside id="filtrar">
-       
-        <ul id="lista">
-            <h2>tipos de libros</h2>
-            <li> <a href="#" data-category="Biografia"> Biografia </a></li>
-            <li> <a href="#" data-category="Historia">Historia</a></li>
-            <li><a href="#" data-category="Ciencia">Ciencia </a></li>
-            <li><a href="#" data-category="InfantilYJuvenil">Infantil y juvenil</a></li>
-            <li><a href="#" data-category="Autoayuda">Autoayuda</a></li>
-            <li><a href="#" data-category="CienciaFiccion">Ciencia Ficcion</a></li>
-            <li><a href="#" data-category="Misterio">Misterio</a></li>
-            <li><a href="#" data-category="Romantica">Romanticas</a></li>
-            <li><a href="#" data-category="LibrosDeTexto">Libros de texto</a></li>
-            <li><a href="#" data-category="Gastronomia">Gastronomia</a></li>
-            <li><a href="#" data-category="Viajes">Viajes</a></li>
-        </ul>
-     </aside>
-
-     <main>
-        <div id="containerlib"></div>
-     </main>
-     <script  type="module" src="/src/libs/store.js"></script>
-
+        <img src="../resources/barzo.png" alt="cesta">
+    </header>
+    <main>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </label>
+        <aside id="filtrar">
+            <ul id="menu">
+                <li><a href="#" data-category="Biografia">Biografía</a></li>
+                <li><a href="#" data-category="Historia">Historia</a></li>
+                <li><a href="#" data-category="Ciencia">Ciencia</a></li>
+                <li><a href="#" data-category="InfantilYJuvenil">Infantil y juvenil</a></li>
+                <li><a href="#" data-category="Autoayuda">Autoayuda</a></li>
+                <li><a href="#" data-category="CienciaFiccion">Ciencia Ficción</a></li>
+                <li><a href="#" data-category="Misterio">Misterio</a></li>
+                <li><a href="#" data-category="Romantica">Románticas</a></li>
+                <li><a href="#" data-category="LibrosDeTexto">Libros de texto</a></li>
+                <li><a href="#" data-category="Gastronomia">Gastronomía</a></li>
+                <li><a href="#" data-category="Viajes">Viajes</a></li>
+            </ul>
+        </aside>
+    
+            <div id="containerlib"></div>
+    </main>
+    <script  type="module" src="/src/libs/store.js"></script>
 </body>
 </html>
+
+ 

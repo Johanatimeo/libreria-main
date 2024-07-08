@@ -1,0 +1,16 @@
+Código: US051
+
+Nombre: Aside1
+
+Roles: sistema
+
+Necesidad:
+Al cliquear una rama quiero poder ver esos libros de esta seccion 
+
+Razon:
+Poder elegir 
+
+Aceptacion:
+ 
+
+Relaciones:

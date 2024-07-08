@@ -1,7 +1,7 @@
 {
     "Biografia": [
         {
-            "image": "img/biografia1.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.EwF5RBkvglsIbjKiL3wbGgHaKX%26pid%3DApi&f=1&ipt=51d1fd667378be8335cff80732b107090310d0def248243eaa7f731f76508f2c&ipo=images",
             "title": "La Vida de Un Genio",
             "publish_date": "2023-04-15",
             "author": "Autor Biografía",
@@ -11,7 +11,7 @@
             ]
         },
         {
-            "image": "img/biografia2.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhips.hearstapps.com%2Fvader-prod.s3.amazonaws.com%2F1637080014-510WotPpO1L._SL500_.jpg%3Fcrop%3D0.986xw%3A1xh%3Bcenter%2Ctop%26resize%3D480%3A*&f=1&nofb=1&ipt=b8fa465b7cd8c81f8d99601e8492f78c75a65e6a026afb935a1d4708c6b4dc5d&ipo=images",
             "title": "Historias de Superación",
             "publish_date": "2023-05-20",
             "author": "Biografo",
@@ -21,7 +21,7 @@
             ]
         },
         {
-            "image": "img/biografia3.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimagessl8.casadellibro.com%2Fa%2Fl%2Ft0%2F08%2F9788478087808.jpg&f=1&nofb=1&ipt=562d71c942ecafe86edc1d8124a2ca8064a46a4fc9869c45b86fe60c2153c30b&ipo=images",
             "title": "Mentes Brillantes",
             "publish_date": "2023-06-25",
             "author": "Autor Biografía",
@@ -369,7 +369,7 @@
     ],
     "Autoayuda": [
         {
-            "image": "img/autoayuda1.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.topcomparativas.com%2Fwp-content%2Fuploads%2F2019%2F07%2F51IjcbqjJKL-664x1024.jpg&f=1&nofb=1&ipt=587a69efafa4b12e895f2499f0bc293bd8efac4c6b490e82dcbed367183cad38&ipo=images",
             "title": "Encuentra Tu Camino",
             "publish_date": "2023-09-30",
             "author": "Coach de Vida",
@@ -379,7 +379,7 @@
             ]
         },
         {
-            "image": "img/autoayuda2.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn0.psicologia-online.com%2Fes%2Fposts%2F8%2F7%2F5%2Fpoder_sin_limites_tony_robbins_2578_0_600.jpg&f=1&nofb=1&ipt=16ca667e7968666cf2c4280b78f40282a03775fb3e8c1a3b58396afbbb283d83&ipo=images",
             "title": "El Poder del Pensamiento Positivo",
             "publish_date": "2023-10-15",
             "author": "Motivador",
@@ -389,7 +389,7 @@
             ]
         },
         {
-            "image": "img/autoayuda3.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.topcomparativas.com%2Fwp-content%2Fuploads%2F2019%2F07%2F513b-sAwNdL-788x1197.jpg&f=1&nofb=1&ipt=ee2fa69002818d845ae9314d26c621d8a4373b44b64309a95b2126b6d65d7ecf&ipo=images",
             "title": "Despierta Tu Potencial",
             "publish_date": "2023-11-01",
             "author": "Coach",
@@ -399,7 +399,7 @@
             ]
         },
         {
-            "image": "img/autoayuda4.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.topcomparativas.com%2Fwp-content%2Fuploads%2F2019%2F07%2F8120b0or4L.jpg&f=1&nofb=1&ipt=7fdacd29447f7c74ce70c112c9804f8644d96caf0a14f90d869d8715fd59b6bf&ipo=images",
             "title": "Vive con Propósito",
             "publish_date": "2023-11-20",
             "author": "Escritor Motivacional",
@@ -409,7 +409,7 @@
             ]
         },
         {
-            "image": "img/autoayuda5.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fpsiqueduelo.com%2Fwp-content%2Fuploads%2F2019%2F11%2Flibros-de-autoayuda-2.jpg%3Ffit%3D1348%252C2048%26ssl%3D1&f=1&nofb=1&ipt=5d2aac0d85427f634e044f53580d058893163657be0d2a269d7d367e4828ae49&ipo=images",
             "title": "El Arte de la Autoestima",
             "publish_date": "2023-12-05",
             "author": "Coach de Vida",
@@ -419,7 +419,7 @@
             ]
         },
         {
-            "image": "img/autoayuda6.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flibroveolibroleo.com%2Fwp-content%2Fuploads%2F2020%2F04%2FEl-fin-de-la-ansiedad--El-mensaje-que-cambiar---tu-vida-395x600.jpg&f=1&nofb=1&ipt=9595b706cf0ad0ccbda189714a431a7d8aa28cd5919ebf41a6bfffa8fa4b69b5&ipo=images",
             "title": "Habilidades para la Vida",
             "publish_date": "2023-12-20",
             "author": "Motivador",
@@ -429,7 +429,7 @@
             ]
         },
         {
-            "image": "img/autoayuda7.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F81GGobIuGhL.jpg&f=1&nofb=1&ipt=1bbde7ca601faace16997f4b7a3fff3a2f2b7236236d6b0c7986ded62323a9a8&ipo=images",
             "title": "Transforma Tu Mente",
             "publish_date": "2024-01-05",
             "author": "Coach",
@@ -439,7 +439,7 @@
             ]
         },
         {
-            "image": "img/autoayuda8.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-FjCd7ZygJzY%2FXriH20U0NFI%2FAAAAAAAA-3E%2FCS4K8EvLVyMPT4RTsAloK_m0-hp9yLrhwCLcBGAsYHQ%2Fs1600%2Fportada_el-poder-de-confiar-en-ti_curro-canete_201902151307.jpg&f=1&nofb=1&ipt=7080148793600c42293c777ca43f76352f5610848cae150cc66010b0e7c0e1ae&ipo=images",
             "title": "El Camino hacia el Éxito",
             "publish_date": "2024-01-20",
             "author": "Escritor Motivacional",
@@ -449,7 +449,7 @@
             ]
         },
         {
-            "image": "img/autoayuda9.jpg",
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F918Tf9DRvKL.jpg&f=1&nofb=1&ipt=0a4e53e343b129e2569ab0f83d57fa46add2efd9d0ad08cd5183e62d0ca51c8a&ipo=images",
             "title": "La Magia del Pensamiento",
             "publish_date": "2024-02-05",
             "author": "Coach de Vida",
@@ -826,5 +826,190 @@
                 "Libros de texto"
             ]
         }
+    ],
+    "Gastronomia": [
+        {
+            "image": "https://www.lahostelera.com/blog/wp-content/uploads/2020/12/especias-860x1024.jpg",
+            "title": "Cocina Gourmet",
+            "publish_date": "2023-01-10",
+            "author": "Chef Famoso",
+            "resume": "Recetas exquisitas de la cocina gourmet.",
+            "tags": [
+                "Gastronomia"
+            ]
+        },
+        {
+            "image": "https://m.media-amazon.com/images/I/81U4V5yewhL._AC_UF894,1000_QL80_.jpg",
+            "title": "Sabores del Mundo",
+            "publish_date": "2023-02-15",
+            "author": "Chef Internacional",
+            "resume": "Explorando los sabores de diferentes culturas.",
+            "tags": [
+                "Gastronomia"
+            ]
+        },
+        {
+            "image": "https://www.gastroactitud.com/wp-content/uploads/2020/01/Libros-Gastroactitud-2019-Pe%CC%81rez-Samper-scaled.jpeg",
+            "title": "Platos Caseros",
+            "publish_date": "2023-03-20",
+            "author": "Cocinero Casero",
+            "resume": "Recetas fáciles y deliciosas para hacer en casa.",
+            "tags": [
+                "Gastronomia"
+            ]
+        },
+        {
+            "image": "https://conelmorrofino.com/wp-content/uploads/2020/04/mejores-libros-de-gastronomia-y-cocina-Tu-casa-mi-casa.-Recetas-de-nuestra-cocina-mexicana-Enrique-Olvera.jpg",
+            "title": "Repostería Creativa",
+            "publish_date": "2023-04-25",
+            "author": "Maestro Repostero",
+            "resume": "Postres y dulces para todas las ocasiones.",
+            "tags": [
+                "Gastronomia"
+            ]
+        },
+        {
+            "image": "https://e00-telva.uecdn.es/assets/multimedia/imagenes/2023/01/04/16728387159810.jpg",
+            "title": "Cocina Vegana",
+            "publish_date": "2023-05-30",
+            "author": "Chef Vegano",
+            "resume": "Deliciosas recetas sin productos de origen animal.",
+            "tags": [
+                "Gastronomia"
+            ]
+        },
+        {
+            "image": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/02/10/16129657243383.jpg",
+            "title": "Cocina Rápida",
+            "publish_date": "2023-06-15",
+            "author": "Cocinero Express",
+            "resume": "Recetas rápidas para personas ocupadas.",
+            "tags": [
+                "Gastronomia"
+            ]
+        },
+        {
+            "image": "img/gastronomia7.jpg",
+            "title": "Cocina Saludable",
+            "publish_date": "2023-07-10",
+            "author": "Nutricionista Chef",
+            "resume": "Platos nutritivos y balanceados.",
+            "tags": [
+                "Gastronomia"
+            ]
+        },
+        {
+            "image": "https://i.blogs.es/6777b4/chef6/450_1000.jpg",
+            "title": "Cocina Italiana",
+            "publish_date": "2023-08-05",
+            "author": "Chef Italiano",
+            "resume": "Deliciosas recetas italianas.",
+            "tags": [
+                "Gastronomia"
+            ]
+        },
+        {
+            "image": "https://img.rtve.es/imagenes/dumplings/1655724230855.jpeg",
+            "title": "Cocina Japonesa",
+            "publish_date": "2023-09-01",
+            "author": "Sushi Master",
+            "resume": "Recetas tradicionales japonesas.",
+            "tags": [
+                "Gastronomia"
+            ]
+        }
+    ],
+    "Viajes": [
+        {
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.okchicas.com%2Fwp-content%2Fuploads%2F2018%2F10%2FLibros-te-inspiraran-a-viajar-12.jpg&f=1&nofb=1&ipt=2d4a175942e864e33cc6a6d146a099d7ac66bf10e329d563dc9aa2bedb3c5ce7&ipo=images",
+            "title": "Aventuras en la Naturaleza",
+            "publish_date": "2023-01-15",
+            "author": "Explorador",
+            "resume": "Las mejores rutas para los amantes de la naturaleza.",
+            "tags": [
+                "Viajes"
+            ]
+        },
+        {
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmarketplace.canva.com%2FEAD0BmmGY2M%2F1%2F0%2F1236w%2Fcanva-revista-de-viajes-globo-aerost%25C3%25A1tico-rojo-y-blanco-ZvwY45zgmxs.jpg&f=1&nofb=1&ipt=f115c862c716cb1d742c8b1c7b15ef910b6583d1373426758c4ffd0877242b75&ipo=images",
+            "title": "Ciudades Cosmopolitas",
+            "publish_date": "2023-02-20",
+            "author": "Viajero Urbano",
+            "resume": "Explorando las ciudades más vibrantes del mundo.",
+            "tags": [
+                "Viajes"
+            ]
+        },
+        {
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.trazandoruta.com%2Fwp-content%2Fuploads%2F2020%2F10%2Fportada_los-500-mejores-lugares-para-viajar_aa-vv_201607011739-1301x1536.jpg&f=1&nofb=1&ipt=5566eb894f902ed60b36fc60ccd2c957da3bb45e63ae1c97a5901864144aae57&ipo=images",
+            "title": "Playas Paradisíacas",
+            "publish_date": "2023-03-25",
+            "author": "Fotógrafo de Playa",
+            "resume": "Guía de las mejores playas del mundo.",
+            "tags": [
+                "Viajes"
+            ]
+        },
+        {
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fviajes.nationalgeographic.com.es%2Fmedio%2F2020%2F12%2F14%2Fcuentos-para-salvar-el-planeta_31322449_1200x1128.jpg&f=1&nofb=1&ipt=12a49a4041e11dde07b7588efdd7ab37b8f07f9a7d4fd3c7503bbc1200ed36c5&ipo=images",
+            "title": "Destinos Históricos",
+            "publish_date": "2023-04-30",
+            "author": "Historiador Viajero",
+            "resume": "Lugares llenos de historia y cultura.",
+            "tags": [
+                "Viajes"
+            ]
+        },
+        {
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fd2%2Fd9%2F5f%2Fd2d95f9e3a726f1a3f8c2305c8ca5183.jpg&f=1&nofb=1&ipt=f664cca08dab329327b6189bbbf4a7c41180f1969a8c054ededdf9870e16e0a9&ipo=images",
+            "title": "Rutas Gastronómicas",
+            "publish_date": "2023-05-15",
+            "author": "Gourmet Viajero",
+            "resume": "Los mejores destinos para los amantes de la comida.",
+            "tags": [
+                "Viajes"
+            ]
+        },
+        {
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fcd%2F58%2F80%2Fcd588060fb3f8969ef57a98fff9400a3.jpg&f=1&nofb=1&ipt=2945320cf9906a337430b0dc8f35f61afc25fda152e2591087e4085fb67cc7b4&ipo=images",
+            "title": "Aventuras Extremas",
+            "publish_date": "2023-06-20",
+            "author": "Adrenalina Pura",
+            "resume": "Lugares para los más atrevidos.",
+            "tags": [
+                "Viajes"
+            ]
+        },
+        {
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mividaconmigo.com%2Fwp-content%2Fuploads%2F2017%2F09%2FLibros-de-viajes-2.jpg&f=1&nofb=1&ipt=2f3e2931d9eb16048087b8e1b62b39887cefeff27e313286764653357df92ea7&ipo=images",
+            "title": "Viajes en Familia",
+            "publish_date": "2023-07-25",
+            "author": "Viajero Familiar",
+            "resume": "Destinos ideales para disfrutar en familia.",
+            "tags": [
+                "Viajes"
+            ]
+        },
+        {
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.evadium.com%2Fwp-content%2Fuploads%2F2020%2F09%2Flibro-de-viajes-para-regalar-Guia-viajeros-inocentes-mark-twain.jpg&f=1&nofb=1&ipt=db9e0fdbe9b31f34cddba4a3db3cbc78f2f2d8fdedf48e7a727f7e08dd5928e8&ipo=images",
+            "title": "Escapadas Románticas",
+            "publish_date": "2023-08-30",
+            "author": "Romántico Viajero",
+            "resume": "Los mejores lugares para una escapada romántica.",
+            "tags": [
+                "Viajes"
+            ]
+        },
+        {
+            "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.evadium.com%2Fwp-content%2Fuploads%2F2020%2F09%2Flibro-de-viajes-para-regalar-el-peor-viaje-del-mundo-APSLEY-CHERRY-GARRARD-1342x2048.jpg&f=1&nofb=1&ipt=37e9e6e173bec59271d0cf5ae9ea13aa45560ed04deed0b0cda4f75d931158ae&ipo=images",
+            "title": "Viajes Económicos",
+            "publish_date": "2023-09-15",
+            "author": "Viajero Ahorrador",
+            "resume": "Guía para viajar sin gastar mucho dinero.",
+            "tags": [
+                "Viajes"
+            ]
+        }
     ]
 }
+
