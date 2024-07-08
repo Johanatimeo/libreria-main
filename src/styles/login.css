@@ -1,0 +1,158 @@
+@import 'general.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: var(--color-1);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Glass Antiqua", cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(resources/fondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login_container {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.815);
+    color: antiquewhite;
+    top: 45%;
+    left: 80%;
+    transform: translate(-45%, -45%);
+    padding: 45px;
+    box-shadow: 0 0 50px 10px var(--color-1);
+    border-radius: 3px;
+    border-radius: 100px;
+
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.login_container p {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.login_container input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login_container input[type="text"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid var(--color-1);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 20px;
+}
+
+.login_container input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: var(--color-1);
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: not-allowed;
+}
+
+.login_container input[type="submit"]:disabled {
+    cursor: not-allowed;
+}
+
+.login_container input[type="submit"]:not(:disabled):hover {
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-1);
+    font-size: 15px;
+}
+
+.condiciones {
+    display: flex;
+    margin: 10px;
+}
+
+#termsCheckbox {
+    width: 20px;
+}
+
+@media (max-width: 1000px) {
+
+    body {
+        font-family: "Orbitron", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        background-image: none;
+    }
+
+    .login_container {
+        width: 80vw;
+        height: 50vh;
+        padding: 50px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image: url(resources/fondo.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+
+    .avatar {
+        width: 80px;
+        height: 80px;
+        top: -10%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .login_container input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+        height: 35px;
+        background-color: rgba(0, 0, 0, 0.815);
+        border-radius: 5px;
+    }
+
+    .login_container input[type="submit"] {
+        font-size: 16px;
+        border: 1px solid white;
+    }
+}
