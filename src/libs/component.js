@@ -15,7 +15,7 @@ export class miComponenteWeb extends HTMLElement {
             </div>
             <style>
                 .article_card {
-                    width: 30rem;
+                     width: calc( 20rem);
                     height: 100%;
                     box-sizing: border-box;
                     text-align: center;
@@ -29,7 +29,7 @@ export class miComponenteWeb extends HTMLElement {
                 }
 
                 .article-image {
-                    width: 50%;
+                    width: 100%;
                     height: 100%;
                     max-height: 12rem;
                     object-fit: cover;
@@ -73,7 +73,7 @@ export class miComponenteWeb extends HTMLElement {
         const shadow = this.shadowRoot;
 
         shadow.querySelector('.article-image').src = imageSrc;
-        shadow.querySelector('.article-image').alt = labels; // Assuming you want to set the alt text to labels or another attribute
+        shadow.querySelector('.article-image').alt = labels; 
 
         const infoButton = shadow.querySelector('.info-button');
         const cestaButton = shadow.querySelector('.cesta-button');

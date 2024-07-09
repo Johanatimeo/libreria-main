@@ -27,7 +27,7 @@ header {
     text-align: center; /* Alinear el contenido al centro */
 }
 main{
-    display: flex;
+    flex: 1;
     align-items: center; 
     padding: 1rem;
 }
@@ -45,7 +45,7 @@ h1::before, h1::after {
     bottom: 0;
     width: 1rem;  
     height: .1rem;  
-    background-color: #272822;  
+    background-color: #d0d1cd;  
     animation-duration: 1s; /* Duración de la animación */
     animation-timing-function: ease-out; 
     animation-iteration-count: infinite;  
@@ -113,10 +113,7 @@ aside a:hover {
 }
 
 /* Main content styles */
-main {
-    flex: 1;
-    padding: 1em;
-}
+
 
 #containerlib {
    /* display: grid;

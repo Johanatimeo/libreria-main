@@ -3,6 +3,15 @@ import { miComponenteWeb } from './component.js';
 
 // Define el elemento personalizado
 window.customElements.define('custom-tag', miComponenteWeb);
+ // subcategoria
+
+function updateHeader(event) {
+    const subcategory = event.target.getAttribute('data-value');
+    document.getElementById('subcategoria').innerText = subcategory;
+}
+document.querySelectorAll('#lista li').forEach(item => {
+    item.addEventListener('click', updateHeader);
+});
 
 // Comprobación de autenticación
 const urlauth = new URLSearchParams(window.location.search);
@@ -29,20 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
             })    
             .catch(error => console.error('Error al cargar los artículos:', error)); // Añade manejo de errores
     }
-    // Función para aplicar efectos de hover a las tarjetas de producto
-function applyHoverEffects() {
-    article_card.forEach(card => {
-      card.addEventListener('mouseenter', () => {
-        card.classList.add('hover');
-      });
-      card.addEventListener('mouseleave', () => {
-        card.classList.remove('hover');
-      });
-    });
-  }
-  
-  // Llamar a la función para aplicar los efectos de hover
-  applyHoverEffects();
+
   function renderizarArticulos(articulos) {
     contenedorlib.innerHTML = ''; // Refresca el contenedor
     // Por cada artículo, crea un 'custom-tag'
@@ -66,3 +62,4 @@ function applyHoverEffects() {
         });
     }
 });
+updateHeader()
