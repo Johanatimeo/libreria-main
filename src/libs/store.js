@@ -29,6 +29,20 @@ document.addEventListener('DOMContentLoaded', function () {
             })    
             .catch(error => console.error('Error al cargar los artículos:', error)); // Añade manejo de errores
     }
+    // Función para aplicar efectos de hover a las tarjetas de producto
+function applyHoverEffects() {
+    article_card.forEach(card => {
+      card.addEventListener('mouseenter', () => {
+        card.classList.add('hover');
+      });
+      card.addEventListener('mouseleave', () => {
+        card.classList.remove('hover');
+      });
+    });
+  }
+  
+  // Llamar a la función para aplicar los efectos de hover
+  applyHoverEffects();
 
     // Renderiza los artículos utilizando los componentes web importados
     function renderizarArticulos(articulos) {
@@ -37,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
         articulos.forEach(articulo => {
             const articleElement = document.createElement('custom-tag');
             articleElement.setAttribute('image-src', articulo.image);
+
             /* Añadir evento de clic para llevar a otra página HTML
             articleElement.addEventListener('click', function () {
                 window.location.href =  `articulos.html?labels=${articulo.labels}`;

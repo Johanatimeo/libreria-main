@@ -4,24 +4,28 @@ export class miComponenteWeb extends HTMLElement {
 
         const template = document.createElement('template');
         template.innerHTML = `
-            <div class="article-card">
-                <img class="article-image" src="" alt="">
+            <div class="article_card">
+                <div class="article-imagen">
+                    <img class="article-image" src="" alt="">
+                </div>
+                <div class="botones">
+                    <button>Info</button>
+                    <button>Comprar</button>
+                </div>
             </div>
             <style>
-          
-                .article-card {
-                    width: calc( 15rem);
+                .article_card {
+                    width: 30rem;
+                    height: 100%;
                     box-sizing: border-box;
                     text-align: center;
-                    background-color: #f9f9f9;
                     transition: background-color 0.3s ease;
                     border-radius: 1rem;
                     margin: 2rem;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    transistion:.1s;
-
+                    position: relative; /* Para que los botones sean posicionados relativamente a la tarjeta */
                 }
 
                 .article-image {
@@ -30,26 +34,35 @@ export class miComponenteWeb extends HTMLElement {
                     max-height: 12rem;
                     object-fit: cover;
                     border-radius: 1rem;
-                    
                 }
 
-                .article-card:hover {
-                
-                    background-color: #c5c4c4;
-                    scale:1.1;
-                    
-                }
-                    @media only screen and (max-width:800px) {
-                 .article-card {
-                    width: calc( 15rem);
+                .botones {
+                    display: none;
+                    position: absolute; 
+                    bottom: 1rem; 
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border-radius: 0.5rem;
                     padding: 0.5rem;
-                    margin: 1rem;
-                    margin-rigth:10rem
                 }
+
+                .article_card:hover .botones {
+                    display: block;
+                }
+
+                .botones button {
+                    margin: 0 0.5rem;
+                }
+
+                @media only screen and (max-width: 800px) {
+                    .article_card {
+                        width: 15rem;
+                        padding: 0.5rem;
+                        margin: 1rem;
                     }
+                }
             </style>
         `;
-
         const root = this.attachShadow({ mode: "open" });
         root.appendChild(document.importNode(template.content, true))
     }
@@ -61,4 +74,5 @@ export class miComponenteWeb extends HTMLElement {
         shadow.querySelector('.article-image').alt = title;
     }
 }
+
 
