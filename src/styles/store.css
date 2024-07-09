@@ -15,7 +15,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #4CAF50;
+    background-color: #3f423f;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -77,7 +77,7 @@ header img {
 /* Stilos para aside */
 aside {
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #c0b0ba;
     padding: 1em;
     width: 250px;
     flex-shrink: 0;

@@ -1,5 +1,10 @@
+@import '../styles/general.css';
+
+
 body {
-  /* background-image: url(../resources/48cbe37c4a5095c211e63039d66b452a.png); */
+ /* background-image: url(../resources/fondoin.avif);*/
+ background-color: black;
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -7,29 +12,30 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* height: 90vh;
-      height: 90vw; */
+  height: 90vh;
   margin: 5px;
-  font-family: Arial, sans-serif;
+ font-family: "Glass Antiqua", cursive;
 }
 
 h1 {
-  color: rgb(44, 48, 12);
+  color: var(--color-1);
   margin-bottom: 20px;
 }
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #cbb199b9;
+color: beige;
   padding: 80px;
   border-radius: 100px;
   /* max-width: 90%; */
-  box-shadow: 0 4px 8px #e5d7cab9;
-
+  box-shadow: 0 0 50px 10px var(--color-1);
 }
+
+
 
 .logo {
   max-width: 100%;
@@ -38,7 +44,7 @@ h1 {
 }
 
 .login-button {
-  background-color: #633a1d;
+  background-color: var(--color-2);
   color: white;
   padding: 15px 30px;
   font-size: 16px;
@@ -49,7 +55,8 @@ h1 {
 }
 
 .login-button:hover {
-  background-color: #45a049;
+  background-color: #8f8f8f;
+
 }
 
 @media (max-width: 768px) {

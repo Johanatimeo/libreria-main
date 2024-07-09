@@ -1,6 +1,5 @@
-@import 'general.css';
+@import '../styles/general.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
 
 * {
     box-sizing: border-box;
@@ -13,7 +12,7 @@ body {
     font-family: "Glass Antiqua", cursive;
     margin: 0;
     padding: 0;
-    background-image: url(resources/fondo.jpeg);
+    background-image: url(../resources/fondo.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +25,6 @@ body {
     width: 600px;
     height: 500px;
     background-color: rgba(0, 0, 0, 0.815);
-    color: antiquewhite;
     top: 45%;
     left: 80%;
     transform: translate(-45%, -45%);
@@ -34,7 +32,6 @@ body {
     box-shadow: 0 0 50px 10px var(--color-1);
     border-radius: 3px;
     border-radius: 100px;
-    
 
 }
 
@@ -127,7 +124,7 @@ a {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-image: url(resources/fondo.jpeg);
+        background-image: url(../resources/fondo.jpeg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
