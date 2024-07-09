@@ -9,8 +9,8 @@ export class miComponenteWeb extends HTMLElement {
                     <img class="article-image" src="" alt="">
                 </div>
                 <div class="botones">
-                    <button>Info</button>
-                    <button>Comprar</button>
+                    <button class="info-button">Info</button>
+                    <button class="cesta-button">Comprar</button>
                 </div>
             </div>
             <style>
@@ -64,15 +64,26 @@ export class miComponenteWeb extends HTMLElement {
             </style>
         `;
         const root = this.attachShadow({ mode: "open" });
-        root.appendChild(document.importNode(template.content, true))
+        root.appendChild(document.importNode(template.content, true));
     }
 
     connectedCallback() {
         const imageSrc = this.getAttribute('image-src');
+        const labels = this.getAttribute('labels');
         const shadow = this.shadowRoot;
+
         shadow.querySelector('.article-image').src = imageSrc;
-        shadow.querySelector('.article-image').alt = title;
+        shadow.querySelector('.article-image').alt = labels; // Assuming you want to set the alt text to labels or another attribute
+
+        const infoButton = shadow.querySelector('.info-button');
+        const cestaButton = shadow.querySelector('.cesta-button');
+        infoButton.addEventListener('click', () => {
+            window.location.href = `Info.html?labels=${labels}`;
+        });
+        cestaButton.addEventListener('click', () => {
+            window.location.href = `cesta.html?labels=${labels}`;
+        });
+       
     }
 }
-
 

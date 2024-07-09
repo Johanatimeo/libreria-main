@@ -43,25 +43,17 @@ function applyHoverEffects() {
   
   // Llamar a la función para aplicar los efectos de hover
   applyHoverEffects();
+  function renderizarArticulos(articulos) {
+    contenedorlib.innerHTML = ''; // Refresca el contenedor
+    // Por cada artículo, crea un 'custom-tag'
+    articulos.forEach(articulo => {
+        const articleElement = document.createElement('custom-tag');
+        articleElement.setAttribute('image-src', articulo.image);
+        articleElement.setAttribute('labels', articulo.title);
 
-    // Renderiza los artículos utilizando los componentes web importados
-    function renderizarArticulos(articulos) {
-        contenedorlib.innerHTML = ''; // Refresca el contenedor
-        // Por cada artículo, crea un 'custom-tag'
-        articulos.forEach(articulo => {
-            const articleElement = document.createElement('custom-tag');
-            articleElement.setAttribute('image-src', articulo.image);
-
-            /* Añadir evento de clic para llevar a otra página HTML
-            articleElement.addEventListener('click', function () {
-                window.location.href =  `articulos.html?labels=${articulo.labels}`;
-                // Seguramente tendrás que llevar el tag o id para identificar
-            });
-            */
-            contenedorlib.appendChild(articleElement);
-        });
-    }
-
+        contenedorlib.appendChild(articleElement);
+    });
+}
     // Filtra los artículos por categoría
     function agregarEventosFiltros(data) {
         lista.addEventListener('click', function (event) {
