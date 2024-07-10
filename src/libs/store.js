@@ -3,14 +3,24 @@ import { miComponenteWeb } from './component.js';
 
 // Define el elemento personalizado
 window.customElements.define('custom-tag', miComponenteWeb);
- // subcategoria
 
-function updateHeader(event) {
-    const subcategory = event.target.getAttribute('data-value');
-    document.getElementById('subcategoria').innerText = subcategory;
-}
-document.querySelectorAll('#lista li').forEach(item => {
-    item.addEventListener('click', updateHeader);
+// subcategoria
+document.addEventListener("DOMContentLoaded", function() {
+    // Get all category links
+    const categoryLinks = document.querySelectorAll("#menu a");
+
+    // Add a click event listener to each link
+    categoryLinks.forEach(link => {
+        link.addEventListener("click", function(event) {
+            event.preventDefault(); // Prevent the default link behavior
+            
+            // Get the category value from the clicked link
+            const categoryValue = event.target.getAttribute("data-value");
+            
+            // Set the category value as the text of the h2 element
+            document.getElementById("subcategoria").textContent = categoryValue;
+        });
+    });
 });
 
 // Comprobación de autenticación
