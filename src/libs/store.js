@@ -1,42 +1,19 @@
-// Asegúrate de que la declaración de importación esté al nivel superior
 import { miComponenteWeb } from './component.js';
-
-// Define el elemento personalizado
 window.customElements.define('custom-tag', miComponenteWeb);
 
-// subcategoria
-document.addEventListener("DOMContentLoaded", function() {
-    // Get all category links
+document.addEventListener("DOMContentLoaded", function () {
     const categoryLinks = document.querySelectorAll("#menu a");
-
-    // Add a click event listener to each link
     categoryLinks.forEach(link => {
-        link.addEventListener("click", function(event) {
-            event.preventDefault(); // Prevent the default link behavior
-            
-            // Get the category value from the clicked link
+        link.addEventListener("click", function (event) {
+            event.preventDefault();
             const categoryValue = event.target.getAttribute("data-value");
-            
-            // Set the category value as the text of the h2 element
             document.getElementById("subcategoria").textContent = categoryValue;
         });
     });
-});
 
-// Comprobación de autenticación
-const urlauth = new URLSearchParams(window.location.search);
-const authen = urlauth.get('auth');
-if (!authen) {
-    alert('Registrate');
-    window.location = 'login.html';
-}
-
-// Evento para cuando el DOM esté completamente cargado
-document.addEventListener('DOMContentLoaded', function () {
     const contenedorlib = document.getElementById('containerlib');
     const lista = document.getElementById('menu');
 
-    // Al iniciar, carga los artículos de 'Biografia'
     cargarArticulos();
 
     function cargarArticulos() {
@@ -45,22 +22,20 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(data => {
                 renderizarArticulos(data.Biografia);
                 agregarEventosFiltros(data);
-            })    
-            .catch(error => console.error('Error al cargar los artículos:', error)); // Añade manejo de errores
+            })
+            .catch(error => console.error('Error al cargar los artículos:', error));
     }
 
-  function renderizarArticulos(articulos) {
-    contenedorlib.innerHTML = ''; // Refresca el contenedor
-    // Por cada artículo, crea un 'custom-tag'
-    articulos.forEach(articulo => {
-        const articleElement = document.createElement('custom-tag');
-        articleElement.setAttribute('image-src', articulo.image);
-        articleElement.setAttribute('labels', articulo.title);
+    function renderizarArticulos(articulos) {
+        contenedorlib.innerHTML = '';
+        articulos.forEach(articulo => {
+            const articleElement = document.createElement('custom-tag');
+            articleElement.setAttribute('image-src', articulo.image);
+            articleElement.setAttribute('labels', articulo.title);
+            contenedorlib.appendChild(articleElement);
+        });
+    }
 
-        contenedorlib.appendChild(articleElement);
-    });
-}
-    // Filtra los artículos por categoría
     function agregarEventosFiltros(data) {
         lista.addEventListener('click', function (event) {
             event.preventDefault();
@@ -71,5 +46,26 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
+
+    updateCartCount();
 });
-updateHeader()
+
+/*function addToCart(id, name) {
+    const book = { id, name };
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push(book);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartCount();
+}*/
+
+function updateCartCount() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    document.getElementById('cart-count').innerText = cart.length;
+}
+
+/*function redirectToCartPage() {
+    window.location.href = 'cesta.html';
+}*/
+document.getElementById('cestara').addEventListener('click', function() {
+    window.location.href = 'cesta.html'; 
+});

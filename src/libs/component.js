@@ -15,7 +15,7 @@ export class miComponenteWeb extends HTMLElement {
             </div>
             <style>
                 .article_card {
-                     width: calc( 20rem);
+                    width: calc(20rem);
                     height: 100%;
                     box-sizing: border-box;
                     text-align: center;
@@ -25,7 +25,7 @@ export class miComponenteWeb extends HTMLElement {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    position: relative; /* Para que los botones sean posicionados relativamente a la tarjeta */
+                    position: relative;
                 }
 
                 .article-image {
@@ -73,17 +73,36 @@ export class miComponenteWeb extends HTMLElement {
         const shadow = this.shadowRoot;
 
         shadow.querySelector('.article-image').src = imageSrc;
-        shadow.querySelector('.article-image').alt = labels; 
+        shadow.querySelector('.article-image').alt = labels;
 
         const infoButton = shadow.querySelector('.info-button');
         const cestaButton = shadow.querySelector('.cesta-button');
+
         infoButton.addEventListener('click', () => {
             window.location.href = `Info.html?labels=${labels}`;
         });
+
         cestaButton.addEventListener('click', () => {
-            window.location.href = `cesta.html?labels=${labels}`;
+            this.addToCart(labels);
+          //  window.location.href = `cesta.html`;
         });
-       
+    }
+
+    addToCart(name) {
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cart.push({ id: Date.now(), name });
+        localStorage.setItem('cart', JSON.stringify(cart));
+        updateCartCount();
     }
 }
+
+function updateCartCount() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const cartCountElement = document.getElementById('cart-count');
+    if (cartCountElement) {
+        cartCountElement.innerText = cart.length;
+    }
+}
+
+
 

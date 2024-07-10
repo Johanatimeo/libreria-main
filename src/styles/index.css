@@ -1,25 +1,27 @@
 @import '../styles/general.css';
 
-
 body {
- /* background-image: url(../resources/fondoin.avif);*/
- background-color: black;
-
+  color: var(--color-1);
+  background-image: url(../resources/fondoindex.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  height: 90vh;
-  margin: 5px;
- font-family: "Glass Antiqua", cursive;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Glass Antiqua", cursive;
+  padding: 30px;
+  margin: 0;
 }
 
-h1 {
+h1, h2 {
   color: var(--color-1);
   margin-bottom: 20px;
+  font-size: 60px;
 }
 
 .container {
@@ -28,59 +30,72 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
-color: beige;
   padding: 80px;
-  border-radius: 100px;
-  /* max-width: 90%; */
-  box-shadow: 0 0 50px 10px var(--color-1);
+  width: 700px;
+  height: 200px;
+  margin-top: -10%;
 }
 
-
-
-.logo {
-  max-width: 100%;
+.descripcion {
+  background-color: rgba(39, 37, 37, 0.897);
+  box-shadow: 0 0 50px 10px var(--color-1);
+  border-radius: 40px;
+  width: 70%;
   height: auto;
-  margin-bottom: 20px;
+  font-size: 25px;
+  padding: 20px;
 }
 
 .login-button {
-  background-color: var(--color-2);
-  color: white;
   padding: 15px 30px;
-  font-size: 16px;
-  border: none;
-  border-radius: 25px;
+  font-size: 20px;
+  margin-top: 100px;
+  border-radius: 100px;
+  aspect-ratio: 2;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  background-color: #8f8f8f;
+  background-image: none;
+  color: var(--color-2);
+  box-shadow: 0 0 50px 30px var(--color-2);
+  border: var(--color-2);
 }
 
 .login-button:hover {
+  background-image: url(../resources/avatar.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--color-1);
   background-color: #8f8f8f;
-
+  border: #ff0000 solid 2px;
+  box-shadow: 0 0 50px 10px var(--color-3);
 }
 
 @media (max-width: 768px) {
-  .login-button {
-    padding: 12px 25px;
-    font-size: 14px;
+  body {
+      padding: 20px;
   }
 
-  h1 {
-    font-size: 24px;
-  }
-}
-
-@media (max-width: 480px) {
-  .login-button {
-    padding: 10px 20px;
-    font-size: 12px;
-  }
-
-  h1 {
-    font-size: 20px;
+  h1, h2 {
+      font-size: 40px;
   }
 
   .container {
-    padding: 15px;
+      padding: 40px;
+      width: 90%;
+      height: auto;
+      margin-top: 0;
+  }
+
+  .descripcion {
+      width: 100%;
+      font-size: 20px;
+      padding: 15px;
+  }
+
+  .login-button {
+      padding: 10px 20px;
+      font-size: 18px;
+      margin-top: 50px;
   }
 }

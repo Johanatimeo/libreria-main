@@ -55,7 +55,10 @@ async function verificarlabels() {
         alert('Hubo un problema al cargar los datos. Por favor, inténtalo de nuevo más tarde.');
     }
 }
-
+//cerrar articulo 
+document.getElementById('cerrar').addEventListener('click', function() {
+    window.location.href = 'store.html?auth=Ok'; 
+});
 verificarlabels();
 
 

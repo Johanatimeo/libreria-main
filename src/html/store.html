@@ -9,7 +9,11 @@
 <body>
     <header>
         <h1>LIBRERIA MANOLO</h1>
-        <img src="../resources/purchase-order_7793380.png" alt="cesta">
+        <!--<img src="../resources/purchase-order_7793380.png" alt="cesta">-->
+        <div class="cart" id="cestara" onclick="redirectToCartPage()">
+            &#128722; (<span id="cart-count">0</span>)
+        
+        </div>
         <h2 id="subcategoria"></h2>
     </header>
     <main>
@@ -33,8 +37,10 @@
                 <li><a href="#" data-category="Gastronomia"  data-value="Gastronomía">Gastronomía</a></li>
                 <li><a href="#" data-category="Viajes"  data-value="Viajes">Viajes</a></li>
             </ul>
+          
+           
         </aside>
-                <div id="containerlib"></div>
+        <div id="containerlib"></div>>
     </main>
     <script  type="module" src="/src/libs/store.js"></script>
 </body>
