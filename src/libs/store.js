@@ -50,22 +50,12 @@ document.addEventListener("DOMContentLoaded", function () {
     updateCartCount();
 });
 
-/*function addToCart(id, name) {
-    const book = { id, name };
-    let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    cart.push(book);
-    localStorage.setItem('cart', JSON.stringify(cart));
-    updateCartCount();
-}*/
-
 function updateCartCount() {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     document.getElementById('cart-count').innerText = cart.length;
 }
 
-/*function redirectToCartPage() {
-    window.location.href = 'cesta.html';
-}*/
 document.getElementById('cestara').addEventListener('click', function() {
     window.location.href = 'cesta.html'; 
 });
+

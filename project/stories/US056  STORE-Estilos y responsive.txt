@@ -1,0 +1,13 @@
+Código: US056
+
+Nombre: Estilos y Responsive 
+Roles: Usuario
+
+Necesidad:
+Facil de ver bonito y practico en todas las plataformas 
+
+Aceptacion:
+ 
+
+Relaciones:
+

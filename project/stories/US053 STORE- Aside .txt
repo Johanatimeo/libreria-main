@@ -1,0 +1,16 @@
+Código: US053
+
+Nombre: Aside1
+
+Roles: sistema
+
+Necesidad:
+Al cliquear una rama quiero poder ver esos libros de esta seccion y poder ver en el header que tipo de libros son.
+
+Razon:
+Poder elegir 
+
+Aceptacion:
+ 
+
+Relaciones:

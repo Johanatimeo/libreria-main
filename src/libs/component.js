@@ -34,6 +34,10 @@ export class miComponenteWeb extends HTMLElement {
                     max-height: 12rem;
                     object-fit: cover;
                     border-radius: 1rem;
+                    border: 3px solid #274649;
+                    box-shadow: 0 0 20px 8px #274649;
+
+
                 }
 
                 .botones {
@@ -84,13 +88,17 @@ export class miComponenteWeb extends HTMLElement {
 
         cestaButton.addEventListener('click', () => {
             this.addToCart(labels);
-          //  window.location.href = `cesta.html`;
         });
     }
 
     addToCart(name) {
         let cart = JSON.parse(localStorage.getItem('cart')) || [];
-        cart.push({ id: Date.now(), name });
+        let item = cart.find(item => item.name === name);
+        if (item) {
+            item.quantity++;
+        } else {
+            cart.push({ name, quantity: 1 });
+        }
         localStorage.setItem('cart', JSON.stringify(cart));
         updateCartCount();
     }
@@ -103,6 +111,7 @@ function updateCartCount() {
         cartCountElement.innerText = cart.length;
     }
 }
+
 
 
 

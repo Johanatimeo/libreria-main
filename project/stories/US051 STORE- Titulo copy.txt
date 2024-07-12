@@ -1,0 +1,17 @@
+Código: US051
+
+Nombre: Titulo
+
+Roles: sistema
+
+Necesidad:
+Titulo de tienda y h2 con descripcion
+
+Razon:
+Informacion donde estit
+
+Aceptacion:
+ 
+
+Relaciones:
+E

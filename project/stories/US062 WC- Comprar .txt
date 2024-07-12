@@ -1,0 +1,16 @@
+Código: US062
+
+Nombre: Comprarr
+
+Roles: Usuario
+Necesidad:
+Cuando le de a comprar quiero que se sume +1 en el carrito.
+
+
+Razon:
+Poder elegir 
+
+Aceptacion:
+ 
+
+Relaciones:

@@ -1,0 +1,18 @@
+Código: US054
+
+Nombre: Al Carrito
+
+Roles: Usuario
+
+Necesidad:
+Cuando le de al boton comprar quiero que :
+    -se sume un numero al carrito 
+    -que solo se guarde una unidad 
+Razon:
+Poder comprar
+
+Aceptacion:
+ 
+
+Relaciones:
+

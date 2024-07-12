@@ -1,0 +1,13 @@
+Código: US073
+
+Nombre: Imprimir
+
+Roles: Usuario 
+
+Necesidad:
+    Quiero poder imprimir la factura
+
+Aceptacion:
+ 
+
+Relaciones:

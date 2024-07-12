@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/store.css">
 </head>
+
 <body>
     <header>
         <h1>LIBRERIA MANOLO</h1>
-        <!--<img src="../resources/purchase-order_7793380.png" alt="cesta">-->
-        <div class="cart" id="cestara" onclick="redirectToCartPage()">
-            &#128722; (<span id="cart-count">0</span>)
-        
+
+        <div class="cesta" id="cestara">
+            <img src="../resources/cesta.png" alt="cesta">
+            <span id="cart-count">0</span>
         </div>
         <h2 id="subcategoria"></h2>
     </header>
@@ -25,25 +27,27 @@
         </label>
         <aside id="filtrar">
             <ul id="menu">
-                <li><a href="#" data-category="Biografia"  data-value="Biografía">Biografía</a></li>
-                <li><a href="#" data-category="Historia"   data-value="Historia">Historia</a></li>
-                <li><a href="#" data-category="Ciencia"  data-value="Ciencia">Ciencia</a></li>
-                <li><a href="#" data-category="InfantilYJuvenil" data-value="Infantil y juvenil">Infantil y juvenil</a></li>
+                <li><a href="#" data-category="Biografia" data-value="Biografía">Biografía</a></li>
+                <li><a href="#" data-category="Historia" data-value="Historia">Historia</a></li>
+                <li><a href="#" data-category="Ciencia" data-value="Ciencia">Ciencia</a></li>
+                <li><a href="#" data-category="InfantilYJuvenil" data-value="Infantil y juvenil">Infantil y juvenil</a>
+                </li>
                 <li><a href="#" data-category="Autoayuda" data-value="Autoayuda">Autoayuda</a></li>
                 <li><a href="#" data-category="CienciaFiccion" data-value="Ciencia Ficción">Ciencia Ficción</a></li>
-                <li><a href="#" data-category="Misterio"  data-value="Misterio">Misterio</a></li>
-                <li><a href="#" data-category="Romantica"  data-value="Románticas">Románticas</a></li>
-                <li><a href="#" data-category="LibrosDeTexto"  data-value="Libros de texto">Libros de texto</a></li>
-                <li><a href="#" data-category="Gastronomia"  data-value="Gastronomía">Gastronomía</a></li>
-                <li><a href="#" data-category="Viajes"  data-value="Viajes">Viajes</a></li>
+                <li><a href="#" data-category="Misterio" data-value="Misterio">Misterio</a></li>
+                <li><a href="#" data-category="Romantica" data-value="Románticas">Románticas</a></li>
+                <li><a href="#" data-category="LibrosDeTexto" data-value="Libros de texto">Libros de texto</a></li>
+                <li><a href="#" data-category="Gastronomia" data-value="Gastronomía">Gastronomía</a></li>
+                <li><a href="#" data-category="Viajes" data-value="Viajes">Viajes</a></li>
             </ul>
-          
-           
+
+
         </aside>
         <div id="containerlib"></div>>
-    </main>
-    <script  type="module" src="/src/libs/store.js"></script>
-</body>
-</html>
 
- 
+        <a href="../../index.html">volver</a>
+    </main>
+    <script type="module" src="/src/libs/store.js"></script>
+</body>
+
+</html>

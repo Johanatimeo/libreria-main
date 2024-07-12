@@ -1,0 +1,13 @@
+Código: US072
+
+Nombre: borrar
+
+Roles: Usuario 
+
+Necesidad:
+Quiero poder borrar toda la cesta
+
+Aceptacion:
+ 
+
+Relaciones:

@@ -1,15 +1,10 @@
 [Backlog]  # Historias con tiempo estimado.
-INDEX:
-     US010-Incio ( tiempo estimado, real)
-           -FONDO
-            -logo
-            -Boton para loguear
-LOGIN: ( tiempo estimado, real)
-    US020:  -fondo 
-            -formulario( tiempo estimado, real)
-    US021: -Que página donde se muestran las condiciones, tenga un mecanismo para poder volver o la página para poder loguearse.( tiempo estimado, real)
-    US025: -Resoponsive ( tiempo estimado, real)
-STORE: 
+STORE:
+    US054:Cuando le de al boton comprar quiero que :
+                -se sume un numero al carrito 
+                -que solo se guarde una unidad 
+    US055: Que cuando le de al Carro me lleve a Cesta.html con todo lo selecionado 
+    US056: Estilos y Responsive
 
 [Sprint]  # Historias a realizar en un spring con responsable asignado
 
@@ -19,16 +14,6 @@ STORE:
 
 [Revision]  # Historias pendientes de aprobación, con el tiempo dedicado
 
-INDEX:( tiempo estimado, real)
-   
-    US011-Boton ( tiempo estimado, real)
-    US012-Responsive ( tiempo estimado, real)
-
-LOGIN: ( tiempo estimado, real)
-    US022: -cuando el boton de condiciones este quequeado, abilitar el boton de auth ( tiempo estimado, real)
-    US023: -Formulario con get y auth ( tiempo estimado, real)
-    US024: -Boton que me lleve auth ( tiempo estimado, real)
-
 CONDICIONES: (tiempo estimado, real)
       US031: Al darle al boton volver a login.html (tiempo estimado, real)
         US030: Mostrar condiciones  (tiempo estimado 1:30, real)
@@ -36,12 +21,6 @@ CONDICIONES: (tiempo estimado, real)
             -parrafo
             -boton
   
-
-AUTH:  ( 1h tiempo estimado, 40 real)
-    US040: -Recoger la informacion de la URL   ( 10m tiempo estimado, 10m real)
-    US042:  -Si coinciden la informacion llevame a Store.html  ( 10m tiempo estimado, 10m real)
-    US043:  -si no es ok alerta y llevame a login.html  ( 10 mtiempo estimado, 10m real)
-    US041:  -Crear el JSON (30 m tiempo estimado,10 m real)
 STORE: ( 4h tiempo estimado, real 3h )
     US050:verificar
     US051:Titulo de tienda logo cesta y descripcion
@@ -51,5 +30,41 @@ STORE: ( 4h tiempo estimado, real 3h )
 
 [Finalizado] # Historias finalizadas
 
+INDEX:( tiempo estimado, real)
+    US010-Incio ( tiempo estimado, real)
+           -FONDO
+            -logo
+            -Boton para loguear
+    US011-Boton ( tiempo estimado, real)
+    US012-Responsive ( tiempo estimado, real)
 
+LOGIN: ( tiempo estimado, real)
+    US020:  -fondo 
+            -formulario( tiempo estimado, real)
+    US021: -Que página donde se muestran las condiciones, tenga un mecanismo para poder volver o la página para poder loguearse.( tiempo estimado, real)
+    US025: -Resoponsive ( tiempo estimado, real)
+    US022: -cuando el boton de condiciones este quequeado, abilitar el boton de auth ( tiempo estimado, real)
+    US023: -Formulario con get y auth ( tiempo estimado, real)
+    US024: -Boton que me lleve auth ( tiempo estimado, real)
 
+AUTH:  ( 1h tiempo estimado, 40 real)
+    US040: -Recoger la informacion de la URL   ( 10m tiempo estimado, 10m real)
+    US042:  -Si coinciden la informacion llevame a Store.html  ( 10m tiempo estimado, 10m real)
+    US043:  -si no es ok alerta y llevame a login.html  ( 10 mtiempo estimado, 10m real)
+    US041:  -Crear el JSON (30 m tiempo estimado,10 m real)
+
+WC:
+    US060:Cuando el raton este hoven en el WC quiero que aparezcan dos botones :
+        -info 
+        -comprar 
+    US061:Cuando le de a info que me lleve a info.html
+    US062:Cuando le de a comprar quiero que se sume +1 en el carrito.
+
+INFO: 
+    -Estilos , responsive y toda la info puesta
+
+CESTA:
+    US070 Al abrir quiero ver los titulos que le he dado a comprar.
+    US071 Quiero poder quitar articulos de la cesta 
+    US072 Quiero poder borrar toda la cesta
+    US073 Quiero poder imprimir la factura

@@ -1,0 +1,13 @@
+Código: US071
+
+Nombre: quitar articulos
+
+Roles: Usuario 
+
+Necesidad:
+Quiero poder quitar articulos de la cesta 
+
+Aceptacion:
+ 
+
+Relaciones:

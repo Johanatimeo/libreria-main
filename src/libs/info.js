@@ -32,7 +32,7 @@ async function verificarlabels() {
         ]; 
 
         // Contrastar info con labels
-        const labelsArray = labels.split(' '); // Asumiendo que los labels están separados por comas en la URL
+        const labelsArray = labels.split(' '); //son varias palabras.
         const articuloEncontrado = articulos.find(articulo => 
             labelsArray.every(title => articulo.title.includes(title))
         );

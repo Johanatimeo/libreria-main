@@ -2,7 +2,7 @@
 
 body {
   color: var(--color-1);
-  background-image: url(../resources/fondoindex.jpeg);
+  background-image: url(../resources/fondo.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -37,40 +37,36 @@ h1, h2 {
 }
 
 .descripcion {
-  background-color: rgba(39, 37, 37, 0.897);
-  box-shadow: 0 0 50px 10px var(--color-1);
-  border-radius: 40px;
+  background-color: var(--color-7);
+  box-shadow: 0 0 70px 40px var(--color-2);
+  border-radius: 15px;
   width: 70%;
   height: auto;
   font-size: 25px;
-  padding: 20px;
+  padding: 40px;
 }
+
 
 .login-button {
-  padding: 15px 30px;
-  font-size: 20px;
-  margin-top: 100px;
-  border-radius: 100px;
-  aspect-ratio: 2;
-  cursor: pointer;
-  background-color: #8f8f8f;
-  background-image: none;
-  color: var(--color-2);
-  box-shadow: 0 0 50px 30px var(--color-2);
-  border: var(--color-2);
-}
-
-.login-button:hover {
+ 
+  background-color:transparent;
   background-image: url(../resources/avatar.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 150px;
+  width: 150px;
+  font-size: 22px;
+  margin-top: 100px;
   color: var(--color-1);
-  background-color: #8f8f8f;
-  border: #ff0000 solid 2px;
-  box-shadow: 0 0 50px 10px var(--color-3);
+  border: none;
+  cursor: pointer;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--color-7);
+  font-weight: bold;
 }
 
+ 
 @media (max-width: 768px) {
   body {
       padding: 20px;

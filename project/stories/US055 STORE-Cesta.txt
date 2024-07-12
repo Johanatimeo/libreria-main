@@ -1,0 +1,16 @@
+Código: US055
+
+Nombre: Cesta
+
+Roles: Usuario
+
+Necesidad:
+Que cuando le de al Carro me lleve a Cesta.html con todo lo selecionado 
+Razon:
+Poder comprar
+
+Aceptacion:
+ 
+
+Relaciones:
+

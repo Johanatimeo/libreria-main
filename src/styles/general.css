@@ -1,7 +1,11 @@
 :root {
     --color-1: #fff;
     --color-2: black;
-    --color-3: #ff0000;
+    --color-3: #4E3E2F;
+    --color-4: #A77552;
+    --color-5: #9e9281;
+    --color-6: #274649;
+    --color-7: #71392de1;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');

@@ -4,55 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Librería</title>
+    <link rel="stylesheet" href="../styles/cesta.css">
 </head>
-<style>
-    /* Añade este CSS en ambos archivos HTML en la sección <style> */
-body {
-    font-family: Arial, sans-serif;
-}
 
-h1 {
-    color: #333;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
-button {
-    background-color: #8e28a7;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #218838;
-}
-
-</style>
 <body>
     <h1>Gracias por tu pedido</h1>
     <ul id="cart-details"></ul>
+    <button id="resetButton">Resetear Carrito</button>
     <button onclick="window.print()">Imprimir</button>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const cart = JSON.parse(localStorage.getItem('cart')) || [];
-            const cartDetails = document.getElementById('cart-details');
-
-            cart.forEach(item => {
-                const li = document.createElement('li');
-                li.innerText = item.name;
-                cartDetails.appendChild(li);
-            });
-        });
-    </script>
+    <script src="../libs/cesta.js"></script>
 </body>
 </html>
+

@@ -1,0 +1,14 @@
+Código: US061
+Nombre: Info
+
+Roles: Usuario
+
+Necesidad:
+Cuando le de a info que me lleve a info.html
+
+
+
+Aceptacion:
+poder elegir  
+
+Relaciones:

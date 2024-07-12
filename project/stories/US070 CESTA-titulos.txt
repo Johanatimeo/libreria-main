@@ -1,0 +1,13 @@
+Código: US070
+
+Nombre: Titulos
+
+Roles: Usuario 
+
+Necesidad:
+Al abrir quiero ver los titulos que le he dado a comprar.
+
+Aceptacion:
+ 
+
+Relaciones:

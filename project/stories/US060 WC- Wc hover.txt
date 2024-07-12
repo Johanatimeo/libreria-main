@@ -1,0 +1,18 @@
+Código: US060
+
+Nombre: Hover
+
+Roles: sistema
+
+Necesidad:
+Cuando el raton este hoven en el WC quiero que aparezcan dos botones :
+    -info 
+    -comprar 
+
+Razon:
+Informacion donde estit
+
+Aceptacion:
+ 
+
+Relaciones:
