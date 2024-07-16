@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     cargarArticulos();
 
     function cargarArticulos() {
-        fetch('/static/libros.json')
+        fetch('../../static/libros.json')
             .then(response => response.json())
             .then(data => {
                 renderizarArticulos(data.Biografia);
