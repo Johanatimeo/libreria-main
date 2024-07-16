@@ -1,10 +1,5 @@
 [Backlog]  # Historias con tiempo estimado.
-STORE:
-    US054:Cuando le de al boton comprar quiero que :
-                -se sume un numero al carrito 
-                -que solo se guarde una unidad 
-    US055: Que cuando le de al Carro me lleve a Cesta.html con todo lo selecionado 
-    US056: Estilos y Responsive
+
 
 [Sprint]  # Historias a realizar en un spring con responsable asignado
 
@@ -14,18 +9,6 @@ STORE:
 
 [Revision]  # Historias pendientes de aprobación, con el tiempo dedicado
 
-CONDICIONES: (tiempo estimado, real)
-      US031: Al darle al boton volver a login.html (tiempo estimado, real)
-        US030: Mostrar condiciones  (tiempo estimado 1:30, real)
-            -titulo
-            -parrafo
-            -boton
-  
-STORE: ( 4h tiempo estimado, real 3h )
-    US050:verificar
-    US051:Titulo de tienda logo cesta y descripcion
-    US052:Aside con los clasificaciones
-    US053: Al cliequear una clasificacion quiero poder ver los libros de ese tema co WC
 
 
 [Finalizado] # Historias finalizadas
@@ -47,6 +30,13 @@ LOGIN: ( tiempo estimado, real)
     US023: -Formulario con get y auth ( tiempo estimado, real)
     US024: -Boton que me lleve auth ( tiempo estimado, real)
 
+CONDICIONES: (tiempo estimado, real)
+      US031: Al darle al boton volver a login.html (tiempo estimado, real)
+        US030: Mostrar condiciones  (tiempo estimado 1:30, real)
+            -titulo
+            -parrafo
+            -boton
+  
 AUTH:  ( 1h tiempo estimado, 40 real)
     US040: -Recoger la informacion de la URL   ( 10m tiempo estimado, 10m real)
     US042:  -Si coinciden la informacion llevame a Store.html  ( 10m tiempo estimado, 10m real)
@@ -59,6 +49,17 @@ WC:
         -comprar 
     US061:Cuando le de a info que me lleve a info.html
     US062:Cuando le de a comprar quiero que se sume +1 en el carrito.
+
+STORE:
+    US050:verificar
+    US051:Titulo de tienda logo cesta y descripcion
+    US052:Aside con los clasificaciones
+    US053: Al cliequear una clasificacion quiero poder ver los libros de ese tema co WC
+    US054:Cuando le de al boton comprar quiero que :
+                -se sume un numero al carrito 
+                -que solo se guarde una unidad 
+    US055: Que cuando le de al Carro me lleve a Cesta.html con todo lo selecionado 
+    US056: Estilos y Responsive
 
 INFO: 
     -Estilos , responsive y toda la info puesta

@@ -22,9 +22,11 @@
       text-align: center;
       position: sticky;
       top: 0;
+      width: 100%;
       z-index: 1000;
       text-align: center;
       padding-top: 50px;
+      position: fixed;
   }
 
 
@@ -42,6 +44,7 @@
 
   .cesta {
       margin-left: 90%;
+   
   }
  
   .cesta span {
@@ -84,12 +87,13 @@
   header img {
       max-width: 100px;
       margin: 1em 0;
+      padding-bottom: 1.5rem;
   }
 
 
   /* Stilos para aside */
   aside {
-    height: 100vh;
+    height: 70vh;
     background-color:var(--color-6);
     padding: 1em;
     width: 250px;
@@ -98,7 +102,8 @@
     float: left;
     box-sizing: border-box;
     font-family: "Glass Antiqua";
-    position: fixed;
+     position: fixed;
+    top:14rem;
 }
 
   h2 {
@@ -121,7 +126,7 @@
   aside a {
       text-decoration: none;
       color:var(--color-1);
-      line-height: 1.3rem;
+      line-height: 2rem;
   }
 
   aside a:hover {
@@ -133,6 +138,7 @@
 
 
   #containerlib {
+    margin-top: 12rem;
       margin-left: 0.5rem;
       padding: 1rem;
       padding-right: 1rem;
@@ -167,11 +173,33 @@
       display: none;
   }
 
+  #volver {
+    border: solid 1px  #fab003;
+    color: #fab003;
+  }
   /* Responsive design */
   @media (max-width: 768px) {
       body {
           flex-direction: column;
       }
+      .cesta {
+        margin-left: 70%;
+    }
+   
+    .cesta span {
+      position: absolute;
+      bottom: 20%;
+      right:10%;
+    }
+      #containerlib {
+        margin-left: 0.5rem;
+        padding: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      
+    }
 
       aside {
           position: fixed;

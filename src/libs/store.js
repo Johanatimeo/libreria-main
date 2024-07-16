@@ -1,13 +1,21 @@
 import { miComponenteWeb } from './component.js';
 window.customElements.define('custom-tag', miComponenteWeb);
 
+
 document.addEventListener("DOMContentLoaded", function () {
     const categoryLinks = document.querySelectorAll("#menu a");
+    const subcategoriaElement = document.getElementById("subcategoria");
+
+    // subctegoria 
+    const initialCategoryLink = categoryLinks[0];
+    const initialCategoryValue = initialCategoryLink.getAttribute("data-value");
+    subcategoriaElement.textContent = initialCategoryValue;
+
     categoryLinks.forEach(link => {
         link.addEventListener("click", function (event) {
             event.preventDefault();
             const categoryValue = event.target.getAttribute("data-value");
-            document.getElementById("subcategoria").textContent = categoryValue;
+            subcategoriaElement.textContent = categoryValue;
         });
     });
 
@@ -21,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(response => response.json())
             .then(data => {
                 renderizarArticulos(data.Biografia);
-                agregarEventosFiltros(data);
+                agregarEventosFiltros(data);   
             })
             .catch(error => console.error('Error al cargar los artículos:', error));
     }

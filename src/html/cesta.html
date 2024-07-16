@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,19 @@
 </head>
 
 <body>
-    <h1>Gracias por tu pedido</h1>
-    <ul id="cart-details"></ul>
-    <button id="resetButton">Resetear Carrito</button>
-    <button onclick="window.print()">Imprimir</button>
+    <section class="content">
+        <h1>Gracias por tu pedido</h1>
+        <ul id="cart-details"></ul>
+        <div style="border: 1px solid black;">
+            <button id="resetButton">Resetear Carrito</button>
+            <button onclick="window.print()">Imprimir</button>
+        </div>
+        <br>
+        <a href="store.html">Tienda</a>
+    </section>
 
     <script src="../libs/cesta.js"></script>
 </body>
+
 </html>
 
