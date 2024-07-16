@@ -10,7 +10,7 @@ async function verificarlabels() {
 
     // Fetch
     try {
-        const response = await fetch("/static/libros.json");
+        const response = await fetch("../../static/libros.json");
         if (!response.ok) {
             throw new Error('Error al cargar el archivo JSON: ' + response.statusText);
         }
