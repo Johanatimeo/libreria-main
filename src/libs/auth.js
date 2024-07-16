@@ -4,7 +4,7 @@ async function iniciarSesion() {
     const password = urlParams.get('password');
   
     try {
-      const response = await fetch('/static/users.json');    
+      const response = await fetch('./static/users.json');    
       if (!response.ok) {
         throw new Error('Error al cargar el archivo JSON: ' + response.statusText);
       }
