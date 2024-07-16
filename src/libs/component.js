@@ -83,7 +83,7 @@ export class miComponenteWeb extends HTMLElement {
         const cestaButton = shadow.querySelector('.cesta-button');
 
         infoButton.addEventListener('click', () => {
-            window.location.href = `Info.html?labels=${labels}`;
+            window.location.href = `info.html?labels=${labels}`;
         });
 
         cestaButton.addEventListener('click', () => {
